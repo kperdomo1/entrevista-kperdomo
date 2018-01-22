@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="col col-lg-6">
+        <div class="p-4 text-center w-75 mx-auto">
+            <h3 class="display-5 mb-2 primary-color font-weight-light">Registrate</h3>
+
+            <p class="text-muted">Ingresa tu email o conecta con Facebook para comenzar a usar Cliengo!</p>
+        </div>
+        <div class="d-flex flex-column">
+            <form>
+                <div class="form-group">
+                    <input ng-model="email" type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email">
+                    <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+                </div>
+            </form>
+            <button type="button" class="btn primary-bg btn-block white-color mb-2" ng-click="register()">Registrarse</button>
+            <br/>
+
+            <div class="divider w-100"></div>
+            <br/>
+
+            <p class="mx-auto text-muted">O tambien puedes ingresar con:</p>
+
+            <a type="button"
+               target="_blank"
+               class="btn btn-block facebook-btn p-1"
+               href="http://www.facebook.com/profile.php?id=">Conectarse con Facebook {{(email)}}</a>
+            <a type="button"
+               target="_blank"
+               class="btn btn-block google-btn p-1"
+               href="http://www.facebook.com/profile.php?id=">Conectarse con Google {{(email)}}</a>
+
+            <a class="btn help-btn" target="_blank" href="http://www.facebook.com/profile.php?id=">
+                <i class="fa fa-question"></i>
+                Ayuda
+            </a>
+        </div>
+    </div>
+
+    <div class="col-lg-6 grey-bg"></div>
+
+</div>

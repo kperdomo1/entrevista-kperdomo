@@ -1,0 +1,54 @@
+.bg, body {
+    background-color: #f4f4fa;
+}
+
+.primary-bg {
+    background: #3aeaa3;
+}
+
+.primary-color {
+    color: #3aeaa3;
+}
+
+.nav-div {
+    background-color: #3aeaa3;
+    height: 3px;
+}
+
+.white-color {
+    color:white;
+}
+
+.white-bg {
+    background: white;
+}
+
+.divider {
+    background: #EEEEEE;
+    height: 2px;
+}
+
+.facebook-btn {
+    border: none !important;
+    color: white;
+    background: #4e0d9d;
+}
+
+.grey-bg {
+    background: #EEEEEE;
+}
+
+.google-btn {
+    border: none !important;
+    color: white;
+    background: #ea2a00;
+}
+
+.help-btn {
+    position: fixed !important;
+    bottom: 10px;
+    right: 10px !important;
+    /*border-radius: 50%;*/
+    background: #535455 !important;
+    color: white;
+}
